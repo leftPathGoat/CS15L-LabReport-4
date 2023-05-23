@@ -3,7 +3,8 @@ CS15L-LabReport-4
 
 
 **Log into ieng6**
-  ` $ssh cs15lsp23nz@ieng6.ucsd.edu`
+ 
+ ` $ssh cs15lsp23nz@ieng6.ucsd.edu`
   
  ![Image](LoginToIeng6.jpg)
   
