@@ -1,12 +1,13 @@
 CS15L-LabReport-4
 ========
-  
+
+
 **Log into ieng6**
   ` $ssh cs15lsp23nz@ieng6.ucsd.edu`
   
  ![Image](LoginToIeng6.jpg)
   
-  -The command above log into my ieng6 account because I have generated the public and private key pair in lab. This allows me to skip the password input to the ieng6 server. Once the terminal detects the login attempt, the server will find the public key as approved. Then, my local computer will prove ownership to the corresponding private key. Therefore, I could login to ieng6 without manual authentication.
+  - The command above log into my ieng6 account because I have generated the public and private key pair in lab. This allows me to skip the password input to the ieng6 server. Once the terminal detects the login attempt, the server will find the public key as approved. Then, my local computer will prove ownership to the corresponding private key. Therefore, I could login to ieng6 without manual authentication.
 
 **Clone your fork of the repository from your Github account**
 
@@ -15,7 +16,7 @@ CS15L-LabReport-4
   ````
  ![Image](LoginToIeng6.jpg)
  
-  -The git command clone the repository using ssh key at `git@github.com:leftPathGoat/lab7.git`.The previous setup from lab allows me to use SSH and HTTPS.
+  - The git command clone the repository using ssh key at `git@github.com:leftPathGoat/lab7.git`.The previous setup from lab allows me to use SSH and HTTPS.
   
 **Run the tests, demonstrating that they fail**
   ````
@@ -25,9 +26,9 @@ CS15L-LabReport-4
   ````
  ![Image](testFail.jpg)
  
- -The `$cd lab7` command change my directory to the lab7 folder. Then `$ls` shows all the files in the lab7 folder. When I run bash script `$bash test.sh`, the script compiles all the java file, and execute the jUnit test `ListExampleTest.class`. 
+ - The `$cd lab7` command change my directory to the lab7 folder. Then `$ls` shows all the files in the lab7 folder. When I run bash script `$bash test.sh`, the script compiles all the java file, and execute the jUnit test `ListExampleTest.class`. 
  
- -By using `$cat test.sh`, we can look at the content from `test.sh`.  
+ - By using `$cat test.sh`, we can look at the content from `test.sh`.  
  ![Image](catTest.jpg)
   
 **Edit the code file to fix the failing test**
@@ -37,7 +38,7 @@ CS15L-LabReport-4
 $vim ListExamples.java
 ````
 
--The command vim open the file `istExamples.java` and allows me to edit the file.
+- The command vim open the file `istExamples.java` and allows me to edit the file.
 > key pressed:
   `/cha <enter>`
   ![Image](search.jpg)
