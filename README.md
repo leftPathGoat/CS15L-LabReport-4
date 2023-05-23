@@ -17,7 +17,7 @@ CS15L-LabReport-4
   ````
     $git clone git@github.com:leftPathGoat/lab7.git
   ````
- ![Image](LoginToIeng6.jpg)
+ ![Image](cloneRepo.jpg)
  
   - The git command clone the repository using ssh key at `git@github.com:leftPathGoat/lab7.git`.The previous setup from lab allows me to use SSH and HTTPS.
   
